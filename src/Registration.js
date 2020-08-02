@@ -6,7 +6,7 @@ const Registration = () => {
     <StyledWrapper>
       <StyledForm method="POST" action="#">
         <StyledInput type="text" placeholder="Имя" />
-        <StyledInput type="email" placeholder="E-mail*" />
+        <StyledInput type="email" placeholder="E-mail*" disabled />
         <StyledInput type="password" placeholder="Пароль*" />
         <StyledButton type="submit">Зарегистрироваться</StyledButton>
       </StyledForm>
